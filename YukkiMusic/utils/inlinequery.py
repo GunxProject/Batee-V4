@@ -18,37 +18,37 @@ answer.extend(
             title="Pause Stream",
             description=f"Pause the current playout on group call.",
             thumb_url="https://telegra.ph/file/c0a1c789def7b93f13745.png",
-            input_message_content=InputTextMessageContent("/pause"),
+            input_message_content=InputTextMessageContent("/pauses"),
         ),
         InlineQueryResultArticle(
             title="Resume Stream",
             description=f"Resume the ongoing playout on group call.",
             thumb_url="https://telegra.ph/file/02d1b7f967ca11404455a.png",
-            input_message_content=InputTextMessageContent("/resume"),
+            input_message_content=InputTextMessageContent("/resumes"),
         ),
         InlineQueryResultArticle(
             title="Mute Stream",
             description=f"Mute the ongoing playout on group call.",
             thumb_url="https://telegra.ph/file/66516f2976cb6d87e20f9.png",
-            input_message_content=InputTextMessageContent("/mute"),
+            input_message_content=InputTextMessageContent("/mutes"),
         ),
         InlineQueryResultArticle(
             title="Unmute Stream",
             description=f"Unmute the ongoing playout on group call.",
             thumb_url="https://telegra.ph/file/3078794f9341ffd582e18.png",
-            input_message_content=InputTextMessageContent("/unmute"),
+            input_message_content=InputTextMessageContent("/unmutes"),
         ),
         InlineQueryResultArticle(
             title="Skip Stream",
             description=f"Skip to next track. | For Specific track number: /skip [number] ",
             thumb_url="https://telegra.ph/file/98b88e52bc625903c7a2f.png",
-            input_message_content=InputTextMessageContent("/skip"),
+            input_message_content=InputTextMessageContent("/skips"),
         ),
         InlineQueryResultArticle(
             title="End Stream",
             description="Stop the ongoing playout on group call.",
             thumb_url="https://telegra.ph/file/d2eb03211baaba8838cc4.png",
-            input_message_content=InputTextMessageContent("/stop"),
+            input_message_content=InputTextMessageContent("/stops"),
         ),
         InlineQueryResultArticle(
             title="Shuffle Stream",
@@ -66,7 +66,7 @@ answer.extend(
             title="Loop Stream",
             description="Loop the current playing music. | Usage: /loop [enable|disable]",
             thumb_url="https://telegra.ph/file/081c20ce2074ea3e9b952.png",
-            input_message_content=InputTextMessageContent("/loop 3"),
+            input_message_content=InputTextMessageContent("/loops 3"),
         ),
     ]
 )
