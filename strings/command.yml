@@ -13,11 +13,11 @@
 # Bot Commands
 PING_COMMAND : ["ping"]
 START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
-RELOAD_COMMAND : ["admincache", "reload"]
+HELP_COMMAND : ["helps"]
+SETTINGS_COMMAND : ["settingd", "setting"]
+RELOAD_COMMAND : ["admincaches", "reloads"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["stat"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -33,22 +33,22 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics"]
+SONG_COMMAND : ["songs", "videos"]
+LYRICS_COMMAND : ["lyric"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["auth"]
-UNAUTH_COMMAND : ["unauth"]
+AUTH_COMMAND : ["auths"]
+UNAUTH_COMMAND : ["unauths"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
+PAUSE_COMMAND : ["pauses", "cpauses"]
+RESUME_COMMAND : ["resumes", "cresumes"]
+MUTE_COMMAND : ["mutes", "cmutes"]
+UNMUTE_COMMAND : ["unmutes", "cunmutes"]
+STOP_COMMAND : ["stops", "ends", "cstops", "cends"]
+SKIP_COMMAND : ["skips", "cskips"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
+LOOP_COMMAND : ["loops", "cloops"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
 RESTART_COMMAND : ["restart"]
 
@@ -102,7 +102,7 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice"]
+ACTIVEVC_COMMAND : ["activevc"]
 ACTIVEVIDEO_COMMAND : ["activevideo"]
 
 #Gban Commands
