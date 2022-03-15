@@ -11,20 +11,20 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 
 **c** stands for channel play.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
+/pauses or /cpauses - Pause the playing music.
+/resumes or /cresumes - Resume the paused music.
+/mutes or /cmutes - Mute the playing music.
+/unmutes or /cunmutes - Unmute the muted music.
+/skips or /cskips - Skip the current playing music.
+/stops or /cstops - Stop the playing music.
+/shuffle or /cshuffle - Randomly shuffles the queued playlist.
 /seek or /cseek - Forward Seek the music to your duration
 /seekback or /cseekback - Backward Seek the music to your duration
 /restart - Restart bot for your chat .
 
 
 ✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
+/skips or /cskips [Number(example: 3)] 
     - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
 
 ✅<u>**Loop Play:**</u>
@@ -34,8 +34,8 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 ✅<u>**Auth Users:**</u>
 Auth Users can use admin commands without admin rights in your chat.
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
+/auths [Username] - Add a user to AUTH LIST of the group.
+/unauths [Username] - Remove a user from AUTH LIST of the group.
 /authusers - Check AUTH LIST of the group."""
 
 
@@ -64,13 +64,13 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
+/gstats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
 
 /sudolist - Check Sudo Users of Yukki Music Bot
 
-/lyrics [Music Name] - Searches Lyrics for the particular Music on web.
+/lyric [Music Name] - Searches Lyrics for the particular Music on web.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/songs [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
 
 /player -  Get a interactive Playing Panel.
 
@@ -80,8 +80,8 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /start - Start the Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
+/helps - Get Commands Helper Menu with detailed explanations of commands.
+/ping - Ping the Bot and check Ram, Cpu etc stats of Bot.
 
 ✅<u>**Group Settings:**</u>
 /settings - Get a complete group's settings with inline buttons
@@ -131,9 +131,9 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
 
 📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
+/activevc - Check active voice chats on bot.
 /activevideo - Check active video calls on bot.
-/stats - Check Bots Stats
+/stat - Check Bots Stats
 
 ⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
 /blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
